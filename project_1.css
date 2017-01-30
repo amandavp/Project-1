@@ -59,3 +59,138 @@ table{
   margin-bottom:20px;
   margin-left:auto;
 }
+
+.dog1{
+  width:100%;
+}
+
+.dog2{
+  width:100%;
+}
+
+.dog3{
+  width:100%;
+}
+
+.number2{
+  text-align:center;
+ color:red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* p:first-child {
+  margin-top: 0
+}
+
+.section {
+  min-height: 100vh;
+  margin-bottom: 15px;
+  background-color: black;
+  padding: 15px;
+  clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+.section:nth-child(odd) {
+  background-color: black;
+}
+
+.content {
+  background-color: red;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.sidebar {
+  background-color: black;
+  padding: 15px;
+}
+
+.sidebar .list {
+  padding-left: 15px;
+  margin: 0;
+}
+
+.footer {
+  padding: 20px;
+  background-color: black;
+  display: block;
+}
+
+.media .photo {
+  display: block;
+}
+
+.media .caption {
+  display: block;
+}
+
+
+.content.col-2 {
+  width: 45%;
+  float: left;
+  margin-right: 10px;
+}
+
+.media {
+  display: inline-block;
+  margin: 0 0 10px 15px;
+
+}
+
+
+
+.cleared .media {
+  clear: right;
+}
+
+.layout .content {
+  width: 60%;
+  float: left;
+}
+
+.layout .sidebar {
+  width: 35%;
+  float: right;
+}
+
+.cleared .footer {
+  clear: both;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.media {
+  display: block;
+  width: 150px;
+  float: left;
+  margin: 0;
+  border: solid 5px black;
+}
+
+.media .photo {
+  display: block;
+  width: 100%
+}
+
+@media all and (max-width: 300px) {
+  .media {
+    width: 100%;
+  }
+
+  .media .photo {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+}
