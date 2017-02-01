@@ -1,5 +1,5 @@
 h1{
-  font-family:cursive;
+  font-family: 'VT323', monospace;
   color:black;
   background-color:white;
   margin-top:20px;
@@ -9,7 +9,7 @@ h1{
   text-align:center;
 }
 h2{
-  font-family:cursive;
+  font-family: 'VT323', monospace;
   color:black;
   background-color:white;
   margin-top:20px;
@@ -24,7 +24,7 @@ img{
   margin-right:auto;
 }
 p{
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-family: 'VT323', monospace;
   color:black;
   background-color:white;
   padding: 40x 40x 40x 40x;
@@ -40,7 +40,7 @@ a:visited{
 }
 
 ul{
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-family: 'VT323', monospace;
   color:black;
   background-color:white;
   padding: 40x 40x 40x 40x;
@@ -133,7 +133,9 @@ ul{
 
 }
 
-
+.caption{
+  font-family: 'VT323', monospace;
+}
 
 .cleared .media {
   clear: right;
