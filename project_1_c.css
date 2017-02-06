@@ -1,43 +1,26 @@
-h1{
-  font-family: 'VT323', monospace;
-  color:black;
-  background-color:white;
-  margin-top:20px;
-  margin-right:auto;
-  margin-bottom:20px;
-  margin-left:auto;
+.numbertwo{
   text-align:center;
-}
-h2{
-  font-family: 'VT323', monospace;
   color:black;
   background-color:white;
-  margin-top:20px;
-  margin-right:auto;
-  margin-bottom:20px;
-  margin-left:auto;
-  text-align:center;
-}
-img{
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-}
-p{
   font-family: 'VT323', monospace;
-  color:black;
-  background-color:white;
-  padding: 40x 40x 40x 40x;
 }
 
-a:hover{
-  color:black;
+.dog1{
+  width:100%;
 }
-a:active{
-  color:black;
+
+.dog2{
+  width:100%;
 }
-a:visited{
-  color:black;
+
+.dog3{
+  width:100%;
+}
+
+
+.number2{
+  text-align:center;
+ color:red;
 }
 
 * {

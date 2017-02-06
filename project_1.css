@@ -2,6 +2,31 @@
   margin-top:150px;
   margin-right:auto;
   margin-bottom:50px;
-  margin-left:200px;
+  margin-left:290px;
   border: 10px solid black;
 }
+
+/* NAV BAR EDITING*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 10px solid black;
+    font-family: 'VT323', monospace;
+    color:black;
+}
+ul:active {
+  color:black;
+}
+ul:visited{
+  color:black;
+}
+ul:hover{
+  color:black;
+}
+
+/*mobdile friendly*/
+@media all and (max-width: 300px) {
+  .media {
+    width: 100%;
+  }

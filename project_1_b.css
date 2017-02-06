@@ -1,0 +1,17 @@
+p{
+  font-family: 'VT323', monospace;
+  color:black;
+}
+
+ul{
+  font-family: 'VT323', monospace;
+  color:black;
+  background-color:white;
+  padding: 40x 40x 40x 40x;
+}
+
+/*mobdile friendly*/
+@media all and (max-width: 300px) {
+  .media {
+    width: 100%;
+  }
